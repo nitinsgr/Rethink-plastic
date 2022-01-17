@@ -15,7 +15,7 @@ import Footer from '../Components/Footer/Footer'
 export default function Home() {
   return (
    <>
-    <Header/>
+  <Header/>
    <BannerContaner/>
   
    </>
@@ -24,6 +24,7 @@ export default function Home() {
 
 
 export const BannerContaner = () =>{
+  const title = "hello";
   
   return(
     <>
@@ -68,7 +69,7 @@ export const BannerContaner = () =>{
       </div> 
         <div className='relative'>
           <Newsletter/>
-          <Footer/>
+          <Footer title={title}/>
           </div> 
       </div>
     </>

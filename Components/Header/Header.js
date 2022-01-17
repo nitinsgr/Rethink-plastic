@@ -3,6 +3,7 @@ import hamburger from '../../public/images/hamburger.png'
 import rethink from '../../public/images/rethinkLogo.svg'
 import Image from 'next/image'
 import ActionComponent from "../Action/ActionComponent";
+import Link from "next/link";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -24,13 +25,18 @@ function Header() {
       <div className={click ? "nav-links active items-center" : "nav-links z-10 items-center"}>
         <ul className=" text-1xl">
           <li>
+            <Link href={'/About'}>
             <a href="#">about us</a>
+            </Link>
+           
           </li>
           <li>
             <a href="#">campaign</a>
           </li>
           <li>
-            <a href="#">news</a>
+            <Link href={'/News'}>
+            <a>news</a>
+            </Link>
           </li>
           <li>
             <a href="#">take action</a>

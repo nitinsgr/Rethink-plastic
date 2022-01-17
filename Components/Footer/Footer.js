@@ -1,7 +1,7 @@
 import Image from "next/image"
 import logoImage from '../../public/images/rethinkLogo.svg'
 
-function Footer() {
+function Footer({title}) {
   return (
     <div className="p-2 max-w-7xl mx-auto">
         <div className="flex justify-between mt-5">
@@ -9,6 +9,7 @@ function Footer() {
           <div className="flex space-x-5 items-center">
           <h2>Twitter</h2>
           <h2>Youtube</h2>
+          {title}
         </div>
       </div>
       <FooterLinks/>

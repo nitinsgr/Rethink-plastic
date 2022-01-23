@@ -12,11 +12,11 @@ function About() {
      <AboutJumbo/>
      <AboutContent/>
      <AboutCampaign/>
-     <PeopleContainer/>
+      <PeopleContainer/>
      <Alliance/>
-     <Associates/>
+      <Associates/>
      <Newsletter/>
-     <Footer/>
+     {/* <Footer/> */}
 
     </div>
   )

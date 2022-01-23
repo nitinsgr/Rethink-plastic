@@ -10,17 +10,20 @@ function CommonHeader() {
 
   const handleClick = () => setClick(!click);
   return (
-    <div className=" absolute z-20 m-10 bg-white w-3/4 items-center flex justify-between">
-    <nav className="navbar">
-    <div className="nav-logo">
-    <Image src={rethink} />
+    <div className=" absolute z-20 md:m-10 bg-white md:w-3/4 w-screen items-center flex justify-between">
+    <nav className="navbar flex justify-between">
+    <div className="nav-logo cursor-pointer invisible md:visible">
+      <Link href={'/'}>
+      <Image src={rethink} />
+      </Link>
+  
     </div>
 
-    <button className="nav-toggle-btn" onClick={handleClick}>
+    <button className="nav-toggle-btn w-8 h-8 " onClick={handleClick}>
       <Image src={hamburger} alt="" role="button" draggable="false" />
     </button>
 
-    <div className={click ? "nav-links active items-center" : "nav-links z-10 items-center"}>
+    <div className={click ? "nav-links active items-center" : "nav-links z-10 items-center text-2xl"}>
       <ul className=" text-1xl">
         <li>
           <Link href={'/About'}>
@@ -29,7 +32,10 @@ function CommonHeader() {
          
         </li>
         <li>
+          <Link href={'/Campaign'}>
           <a href="#">campaign</a>
+          </Link>
+         
         </li>
         <li>
           <Link href={'/News'}>
@@ -38,10 +44,14 @@ function CommonHeader() {
          
         </li>
         <li>
+          <Link href={'/TakeAction'}>
           <a href="#">take action</a>
+          </Link>
         </li>
         <li>
+          <Link href={'/Contact'}>
           <a href="#">contact us</a>
+          </Link>
         </li>
       </ul>
     </div>

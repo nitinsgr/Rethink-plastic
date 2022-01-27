@@ -27,9 +27,9 @@ function News() {
       <CommonHeader/>
       <NewsBanner/>
       <NewsHeader/>
-      <ModalContainer toggleModal={toggleModal} isOpen={isOpen} NewsTwo={NewsTwo} toggleSecModal={toggleSecModal} toggleThirdModal={toggleThirdModal} isThird={isThird}/>
+       <ModalContainer toggleModal={toggleModal} isOpen={isOpen} NewsTwo={NewsTwo} toggleSecModal={toggleSecModal} toggleThirdModal={toggleThirdModal} isThird={isThird}/>
       <Newsletter/>
-      <Footer/>
+       <Footer/>
     </div>
   )
 }

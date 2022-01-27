@@ -16,7 +16,7 @@ function About() {
      <Alliance/>
       <Associates/>
      <Newsletter/>
-     {/* <Footer/> */}
+     <Footer/>
 
     </div>
   )

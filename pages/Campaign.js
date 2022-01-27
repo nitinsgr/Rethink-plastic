@@ -12,7 +12,7 @@ function Campaign() {
        <CampaignKey/>
       <CampaignNews/>
       <Newsletter/>
-      {/* <Footer/> */}
+       <Footer/>
     </div>
   )
 }

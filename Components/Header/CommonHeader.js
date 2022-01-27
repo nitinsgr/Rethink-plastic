@@ -10,11 +10,11 @@ function CommonHeader() {
 
   const handleClick = () => setClick(!click);
   return (
-    <div className=" absolute z-20 md:m-10 bg-white md:w-3/4 w-screen items-center flex justify-between">
+    <div className=" absolute z-20 md:m-10 bg-TreColor md:w-3/4 w-screen items-center flex justify-between">
     <nav className="navbar flex justify-between">
-    <div className="nav-logo cursor-pointer invisible md:visible">
+    <div className="nav-logo cursor-pointer invisible md:visible text-white font-Montserrat text-3xl">
       <Link href={'/'}>
-      <Image src={rethink} />
+      <h1>Say<span className="text-secColor font-bold">No</span>ToPlastic</h1>
       </Link>
   
     </div>
@@ -23,7 +23,7 @@ function CommonHeader() {
       <Image src={hamburger} alt="" role="button" draggable="false" />
     </button>
 
-    <div className={click ? "nav-links active items-center" : "nav-links z-10 items-center text-2xl"}>
+    <div className={click ? "nav-links active items-center text-white" : "nav-links z-10 items-center text-2xl text-white font-Montserrat"}>
       <ul className=" text-1xl">
         <li>
           <Link href={'/About'}>

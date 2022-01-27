@@ -3,6 +3,7 @@ import { doc, getFirestore, setDoc } from "firebase/firestore"
 import Firebase from "../Firebase";
 import CommonHeader  from '../Components/Header/CommonHeader'
 import ContactComponent from "../Components/Contact/ContactComponent";
+import Footer from "../Components/Footer/Footer";
 
 function Contact() {
   const saveTodo = (input , emailInput , messageInput ) => {
@@ -17,6 +18,7 @@ function Contact() {
     <div>
       <CommonHeader />
       <ContactComponent saveTodo={saveTodo}/>
+      <Footer/>
     </div>
   )
 }

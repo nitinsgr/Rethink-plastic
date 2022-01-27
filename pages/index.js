@@ -33,7 +33,7 @@ export const BannerContaner = () =>{
       </div>
       <div className=' absolute w-full'>
         <div className='grid md:grid-cols-3 grid-cols-1'>
-        <div className=' bg-purple'>
+        <div className=' bg-secColor'>
           <div className='flex flex-col m-5'>
             <h3 className='p-4 bg-white w-32 m-5 text-center font-Montserrat'>POLICY</h3>
             <h2  className='p-4 text-white text-4xl w-3/4 font-Montserrat'>A global treaty on plastics?</h2>
@@ -41,7 +41,7 @@ export const BannerContaner = () =>{
             <button className='p-4 text-white border border-white mt-5 ml-5 text-1xl font-Montserrat'>Read more</button>
           </div>
         </div>
-        <div className=' bg-lightGreen'>
+        <div className=' bg-color2'>
           <div className='flex flex-col font-Montserrat m-5'>
             <h3  className='p-4 bg-white w-32 m-5 text-center'>PRESS</h3>
             <h2 className='p-4 text-white text-2xl md:text-4xl font-Montserrat  w-3/4'>Illegal plastic waste dumping</h2>
@@ -49,11 +49,11 @@ export const BannerContaner = () =>{
             <button className='p-4 border border-white ml-5 text-white'>Read more</button>
           </div>
         </div>
-        <div className=' bg-slate-100 '>
+        <div className=' bg-TreColor '>
           <div className='flex flex-col font-Montserrat m-5'>
             <h3 className=' bg-blue-900 text-white p-4 w-2/5 m-5'>PEOPLE POWER</h3>
-            <h2 className='text-2xl md:text-4xl p-4 font-Montserrat text-blue-900 w-3/4'>#WeChooseReuse will you?</h2>
-            <p className='p-4 text-indigo-900 text-1xl'>It’s time to replace single-use plastic with reusable systems. Join the Reuse Revolution!</p>
+            <h2 className='text-2xl md:text-4xl p-4 font-Montserrat text-white w-3/4'>#WeChooseReuse will you?</h2>
+            <p className='p-4 text-white text-1xl'>It’s time to replace single-use plastic with reusable systems. Join the Reuse Revolution!</p>
             <button className='p-4  text-white bg-blue-900 m-5'>Take action</button>
           </div>
         </div>
@@ -80,12 +80,12 @@ export const BannerContaner = () =>{
 
 export const CenterSection = () =>{
   return(
-    <div className=' max-w-7xl mx-auto md:mt-32 mt-10'>
+    <div className=' max-w-7xl mx-auto md:mt-32 mt-10 mb-10'>
       <div  className=' flex flex-col md:flex-row'>
         <div className='flex flex-col bg-white w-screen md:w-3/6 p-10 md:p-20 shadow-xl'>
           <h2 className='text-3xl font-Montserrat font-bold text-blue-900 w-5/6 '>How to fix the plastic waste trade?</h2>
           <p className='text-1xl md:text-2xl  font-Montserrat '>Ahead of the Waste Shipment Regulation Revision, we outlined key recommendations to ensure we achieve a genuinely circular economy</p>
-          <button className=' bg-blue-900 text-white p-4 w-3/6 mt-5'>Read more</button>
+          <button className=' bg-secColor text-white p-4 w-3/6 mt-5'>Read more</button>
         </div>
          <div className=' md:w-5/6 h-300 md:h-500 shadow-xl relative'>
           <Image src={dumpingImage} layout='fill' alt=''/>
@@ -98,7 +98,7 @@ export const CenterSection = () =>{
 
 export const JumboTron = () => {
   return(
-    <div className=' mx-auto flex flex-col items-center bg-blue-900 md:p-20 p-10'>  
+    <div className=' mx-auto flex flex-col items-center bg-TreColor md:p-20 p-10'>  
       <h2 className='text-3xl md:w-5/6 leading-snug font-Montserrat font-bold md:pt-32 pt-20 text-white text-center'>Let's put a stop to intentionally-added microplastic</h2>
       <p className='text-1xl md:w-3/6 pt-10 text-white text-center font-Montserrat'>We need EU decision-makers to severely restrict the intentional use of microplastics. Recent recommendations provide loopholes that could favour unproven biodegradable plastics and give some sectors up to 8 years to take action</p>
       <button className='md:p-4 md:m-4 border z-20 mt-10  border-white text-white p-4 font-Montserrat '>Read more</button>
@@ -143,14 +143,14 @@ export const CardSection = () => {
 
 export const Newsletter = () => {
   return(
-    <div className=' bg-blue-900 pb-10 pt-5 p-4'>
+    <div className=' bg-TreColor pb-10 pt-5 p-4'>
       <div className=' max-w-7xl mx-auto pt-10'>
       <h2 className='text-2xl text-white font-bold'>Sign up to our newsletter</h2>
       <div className='flex md:mt-5 md:space-x-10 flex-col md:flex-row m-5'>
         <input className=' md:w-4/12 p-2 m-2' placeholder='email-address'/>
         <input className=' md:w-4/12 p-2 m-2' placeholder='First name'/>
         <input className='md:w-4/12 p-2 m-2' placeholder='Last namew'/>
-        <button className='text-white bg-indigo-600 p-2'>SUBSCRIBE</button>
+        <button className='text-white bg-secColor p-2'>SUBSCRIBE</button>
       </div>
     </div>
     </div>

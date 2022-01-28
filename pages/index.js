@@ -107,7 +107,7 @@ export const CenterSection = () =>{
 export const JumboTron = () => {
   return(
     <div className=' mx-auto flex flex-col items-center bg-TreColor md:p-20 p-10'>  
-      <h2 className='text-3xl md:w-5/6 leading-snug font-Montserrat font-bold md:pt-32 pt-20 text-white text-center'>Let's put a stop to intentionally-added microplastic</h2>
+      <h2 className='text-3xl md:w-5/6 leading-snug font-Montserrat font-bold md:pt-32 pt-20 text-white text-center'>Lets put a stop to intentionally-added microplastic</h2>
       <p className='text-1xl md:w-3/6 pt-10 text-white text-center font-Montserrat'>We need EU decision-makers to severely restrict the intentional use of microplastics. Recent recommendations provide loopholes that could favour unproven biodegradable plastics and give some sectors up to 8 years to take action</p>
       <button className='md:p-4 md:m-4 border z-20 mt-10  border-white text-white p-4 font-Montserrat '>Read more</button>
     </div>
@@ -118,10 +118,9 @@ export const JumboTron = () => {
 export const CardSection = () => {
   return(
     <div className=' max-w-7xl mx-auto items-center mb-20'>
-      <div className='flex md:space-x-16 shadow-xl md:ml-20 md:mr-20 md:mt-20 md:p-10 flex-col md:flex-row 
-      '>
+      <div className='flex md:space-x-16 shadow-xl md:ml-20 md:mr-20 md:mt-20 md:p-10 flex-col md:flex-row'>
         <div className='p-5'>
-          <Image src={hearImage} width={400} height={400} />
+          <Image src={hearImage} width={400} height={400} alt='' />
         </div>
         <div className=' md:w-3/6 w-screen p-10'>
           <h2 className='text-3xl text-blue-900 font-Montserrat font-bold'>A global treaty on plastics?</h2>
@@ -136,12 +135,12 @@ export const CardSection = () => {
           <button className='p-4 border border-blue-900 text-blue-900 mt-20 '>Read more</button>
         </div>
         <div className=''>
-          <Image src={decomposeImage} width={500} height={500} />
+          <Image src={decomposeImage} width={500} height={500} alt='' />
         </div>
       </div>
       <div className='flex md:space-x-16 shadow-xl md:ml-20 md:mr-20 md:mt-20'>
         <div className=' relative h-500 w-full hidden md:block'>
-          <Image src={reuseImage} layout='fill' objectFit='cover'  />
+          <Image src={reuseImage} layout='fill' objectFit='cover' alt=''  />
         </div>
       </div>
     </div>

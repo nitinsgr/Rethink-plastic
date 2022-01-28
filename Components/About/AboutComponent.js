@@ -25,7 +25,7 @@ export const AboutJumbo = () => {
 export const AboutContent = () => {
   return(
     <div className=" max-w-7xl mx-auto">
-        <h1 className="text-3xl md:text-7xl font-Montserrat font-bold text-white bg-secColor transform md:-translate-y-1/2 md:w-2/3 p-5">Let's Say No To Plastic</h1>
+        <h1 className="text-3xl md:text-7xl font-Montserrat font-bold text-white bg-secColor transform md:-translate-y-1/2 md:w-2/3 p-5">Lets Say No To Plastic</h1>
         <div className="flex justify-evenly md:mt-10 flex-col md:flex-row">
          <div className="flex flex-col">
            <p className="text-1xl md:text-2xl p-5 font-Montserrat md:p-0 text-blue-900">SayNoToPlastic is an alliance of leading European NGOs, with thousands of active groups, supporters and citizens in every EU Member State.</p>
@@ -174,7 +174,7 @@ export const Associates = () => {
           <Image src={bellona} width={300} height={300} objectFit="contain" />
         </div>
         <div className=" md:bg-TreColor relative pb-20">
-            <h1 className=" bg-secColor text-2xl md:w-3/5 w-screen transform md:-translate-x-20 font-Montserrat font-bold text-white md:absolute md:m-10 p-5">We're part of the #breakfreefromplastic movement</h1>
+            <h1 className=" bg-secColor text-2xl md:w-3/5 w-screen transform md:-translate-x-20 font-Montserrat font-bold text-white md:absolute md:m-10 p-5">Were part of the #breakfreefromplastic movement</h1>
             <div className="flex md:pt-36 md:pl-20 md:pr-20 md:space-x-5 flex-col">
               <p className="text-1xl p-5 text-white font-Montserrat md:w-2/4 w-screen  ">#breakfreefromplastic is a global movement envisioning a future free from plastic pollution. Since its launch in September 2016, over 2000 groups from across the world have joined the movement to demand massive reductions in single-use plastics and to push for lasting solutions to the plastic pollution crisis. These organizations share the common values of environmental protection and social justice, which guide their work at the community level and represent a global, unified vision.</p>
               <Image src={communityImage} objectFit="cover" width={500} height={400} className=' invisible md:visible' />

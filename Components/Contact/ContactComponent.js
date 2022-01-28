@@ -27,7 +27,7 @@ function ContactComponent({saveTodo}) {
   return(
     <div>
       <div className="relative">
-      <Image src={reduce} height={2300} objectFit="cover" />
+      <Image src={reduce} height={2300} objectFit="cover" alt='' />
     </div>
     <ContactForm handleSubmit={handleSubmit} form={form} input={input} emailInput={emailInput} setInput={setInput} setEmailInput={setEmailInput} setMessageInput={setMessageInput} messageInput={messageInput}/>
     <Newsletter />

@@ -13,7 +13,7 @@ export const NewsBanner = () => {
   return(
     <div>
     <div className="relative">
-      <Image src={BeachImage} height={600} objectFit="cover" />
+      <Image src={BeachImage} height={600} objectFit="cover" alt='' />
     </div>
     </div>
   )
@@ -34,7 +34,7 @@ export const NewsHeader = () => {
 
 export const NewsHeading = () => {
   return(
-    <div className=' max-w-7xl mx-auto'>
+    <div className='max-w-7xl mx-auto'>
       <h4 className='text-1xl md:w-4/5 md:p-10 p-5 font-Montserrat text-blue-900'>In a bid to become a global leader on reducing methane emissions, the European Commission plans to table its proposal for a Methane Regulation this 14 December – but it’s expected that it will not include full coverage of supply chains, nor inclusion of petrochemicals, as the European Parliament had asked for.</h4>
       <p className='md:p-10 p-5 md:w-11/12 text-blue-900 font-Montserrat'>
       In a bid to become a global leader on reducing methane emissions, the European Commission plans to table its proposal for a Methane Regulation this 14 December – but it’s expected that it will not include full coverage of supply chains, nor inclusion of petrochemicals, as the European Parliament had asked for. With 75-90% of all EU methane emissions occurring from imported fossil fuels, these leading emitters and their supply chain need to be included if the regulation is to be robust, environmental NGOs urge.
@@ -63,7 +63,7 @@ export const ModalContainer = ({toggleModal, isOpen, toggleSecModal , NewsTwo , 
        </div>
        <div className='flex transform duration-500 ease-in-out transition-all pt-5 mt-5'>
         {isThird? <ArrowCircleDownIcon className="md:w-8 md:h-8 w-5 h-5"/> : <ArrowCircleRightIcon className='w-8 h-8'/>}
-        <button onClick={toggleThirdModal} className='text-1xl font-Montserrat font-bold text-blue-900'>European Commission acknowledges the Eu's plastic waste trade crisis.
+        <button onClick={toggleThirdModal} className='text-1xl font-Montserrat font-bold text-blue-900'>European Commission acknowledges the Eus plastic waste trade crisis.
         </button>
        </div>
         {isOpen ? <ModalBox/>  : NewsTwo ? <ModalBoxTwo/> : isThird ? <ModalBoxThree/> : null}  
@@ -97,7 +97,7 @@ export const ModalBoxTwo = () => {
 export const ModalBoxThree = () => {
   return(
     <div className=' bg-blue-900 text-white font-Montserrat p-4'>
-    <p>Today the European Commission tabled its long anticipated proposal of the EU Waste Shipment Regulation, with an aim “to ensure that the EU does not export its waste challenges to third countries”. However despite some interesting provisions, current suggestions fail to adequately address the scale and impact of waste trade. </p>
+    <p>Today the European Commission tabled its long anticipated proposal of the EU Waste Shipment Regulation, with an aim to ensure that the EU does not export its waste challenges to third countries. However despite some interesting provisions, current suggestions fail to adequately address the scale and impact of waste trade. </p>
     <button className='p-4 border border-white mt-10 transform hover:bg-white hover:text-blue-900'>Read More</button>
   </div>
   )

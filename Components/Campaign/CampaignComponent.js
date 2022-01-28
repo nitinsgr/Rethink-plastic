@@ -8,7 +8,7 @@ export const CampaignBanner = () => {
   return(
     <div>
     <div className="relative">
-      <Image src={green} height={700} objectFit="cover" />
+      <Image src={green} height={700} objectFit="cover" alt='' />
     </div>
     </div>
   )
@@ -19,7 +19,7 @@ export const CampaignHeader = () => {
   return(
     <div>
       <div className=' max-w-7xl mx-auto mb-20'>
-          <h1 className='text-4xl md:text-7xl text-white font-bold font-Montserrat bg-secColor transform md:-translate-y-10 p-5 md:w-4/5 w-screen leading-snug '>It's high time to Rethink Plastic</h1>
+          <h1 className='text-4xl md:text-7xl text-white font-bold font-Montserrat bg-secColor transform md:-translate-y-10 p-5 md:w-4/5 w-screen leading-snug '>Its high time to Rethink Plastic</h1>
 
           <p className=' md:w-3/5 text-2xl p-5 text-blue-900 md:pt-20 md:pb-20'>
           The Rethink Plastic alliance works with European decision-makers to design and deliver policies solutions for a future free from plastic pollution.
@@ -50,7 +50,7 @@ export const CampaignKey = () => {
             </p>
           </div>
           <div className='pt-10 invisible md:visible'>
-            <Image src={reduceImage} />
+            <Image src={reduceImage} alt='' />
           </div>
         </div>
 
@@ -66,7 +66,7 @@ export const CampaignKey = () => {
             </p>
           </div>
           <div className='pt-10 pl-32 invisible md:visible'>
-            <Image src={InfoImage} />
+            <Image src={InfoImage} alt='' />
           </div>
         </div> 
 
@@ -82,7 +82,7 @@ export const CampaignKey = () => {
             </p>
           </div>
           <div className='pt-10 pl-24 invisible md:visible'>
-            <Image src={improveImage} />
+            <Image src={improveImage} alt='' />
           </div>
         </div>
       </div>

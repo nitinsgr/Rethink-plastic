@@ -4,6 +4,12 @@ import { useState } from 'react'
 import { ArrowCircleRightIcon, ArrowCircleDownIcon, BeakerIcon } from '@heroicons/react/solid'
 
 export const NewsBanner = () => {
+  const func = () => {
+    return (
+      <div >
+         you&apos;re free
+        </div>
+    )}
   return(
     <div>
     <div className="relative">

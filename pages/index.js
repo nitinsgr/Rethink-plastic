@@ -13,6 +13,14 @@ import Footer from '../Components/Footer/Footer'
 
 
 export default function Home() {
+
+  const func = () => {
+    return (
+      <div >
+         {" you're free "}
+        </div>
+    )}
+  
   return (
    <>
   <Header/>

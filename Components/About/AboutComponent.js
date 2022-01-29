@@ -24,7 +24,7 @@ export const AboutJumbo = () => {
 
 export const AboutContent = () => {
   return(
-    <div className=" max-w-7xl mx-auto bg-white">
+    <div className=" max-w-7xl mx-auto bg-whiteboard">
         <h1 className="text-3xl md:text-7xl font-Montserrat font-bold text-white bg-secColor transform md:-translate-y-1/2 md:w-2/3 p-5">Lets Say No To Plastic</h1>
         <div className="flex justify-evenly md:mt-10 flex-col md:flex-row">
          <div className="flex flex-col">
@@ -63,7 +63,7 @@ export const AboutCampaign = () => {
               <p className="text-1xl text-blue-900 pt-5">By making plastics responsible by design: long-lasting, reusable, recyclable, toxic-free, and incorporating recycled content, to make the circular economy come true.</p>
             </div>
             <div className=" bg-blue-300 p-5 flex flex-col">
-              <h2 className=" bg-white text-blue-900 text-1xl w-2/5 p-2">Campaign</h2>
+              <h2 className=" bg-whiteboard text-blue-900 text-1xl w-2/5 p-2">Campaign</h2>
               <h3 className=" text-blue-900 font-bold text-2xl pt-5">Reduce plastic product consumption</h3>
               <p className="text-1xl text-blue-900 pt-5">By cutting single-use items, overpackaging and top littered products, while phasing out microplastics and oxoplastics, to close the tap of plastic pollution.</p>
             </div>
@@ -82,7 +82,7 @@ export const AboutCampaign = () => {
 export const PeopleContainer = () => {
   return(
     <div>
-      <div className=" max-w-7xl mx-auto bg-white">
+      <div className=" max-w-7xl mx-auto bg-whiteboard">
         <h2 className="text-5xl p-5 font-bold font-Montserrat text-blue-900">Our People</h2>
         <div className="flex md:pt-20 pt-10 flex-col md:flex-row">
           <div className="flex flex-col md:space-y-5">

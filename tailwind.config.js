@@ -11,6 +11,7 @@ module.exports = {
         secColor : '#ff0054',
         TreColor : '#00043a',
         color2 : '#00f5d4',
+        whiteboard : '#fff',
       },
       fontFamily : {
         'comfortaa' : ['Comfortaa'],

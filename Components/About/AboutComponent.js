@@ -24,7 +24,7 @@ export const AboutJumbo = () => {
 
 export const AboutContent = () => {
   return(
-    <div className=" max-w-7xl mx-auto">
+    <div className=" max-w-7xl mx-auto bg-white">
         <h1 className="text-3xl md:text-7xl font-Montserrat font-bold text-white bg-secColor transform md:-translate-y-1/2 md:w-2/3 p-5">Lets Say No To Plastic</h1>
         <div className="flex justify-evenly md:mt-10 flex-col md:flex-row">
          <div className="flex flex-col">
@@ -82,7 +82,7 @@ export const AboutCampaign = () => {
 export const PeopleContainer = () => {
   return(
     <div>
-      <div className=" max-w-7xl mx-auto">
+      <div className=" max-w-7xl mx-auto bg-white">
         <h2 className="text-5xl p-5 font-bold font-Montserrat text-blue-900">Our People</h2>
         <div className="flex md:pt-20 pt-10 flex-col md:flex-row">
           <div className="flex flex-col md:space-y-5">
